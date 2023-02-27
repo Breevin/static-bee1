@@ -17,7 +17,7 @@ class Details extends React.Component {
 
         axios({
             method: 'GET',
-            url: 'http://bee-node103.onrender.com/restaurants/',restauranta,
+            url: 'https://bee-node103.onrender.com/restaurants/',restauranta,
             headers: { 'Content-Type': 'application/json' }
         })
             .then(response => {

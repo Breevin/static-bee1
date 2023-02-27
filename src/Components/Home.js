@@ -17,7 +17,7 @@ class Home extends React.Component {
     componentDidMount() {
         axios({
             method: 'GET',
-            url: 'http://bee-node103.onrender.com/locations',
+            url: 'https://bee-node103.onrender.com/locations',
             headers: { 'Content-Type': 'application/json' }
         })
             .then(response => {
@@ -29,7 +29,7 @@ class Home extends React.Component {
         // Quicksearch
         axios({
             method: 'GET',
-            url: 'http://bee-node103.onrender.com/mealtype',
+            url: 'https://bee-node103.onrender.com/mealtype',
             headers: { 'Content-Type': 'application/json' }
         })
             .then(response => {

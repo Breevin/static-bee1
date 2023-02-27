@@ -20,7 +20,7 @@ class Wallpaper extends React.Component {
 
         axios({
             method: 'GET',
-            url: 'http://bee-node103.onrender.com/restaurants/',location_id,
+            url: 'https://bee-node103.onrender.com/restaurants/',location_id,
             headers: { 'Content-Type': 'application/json'}
         })
             .then(response => {
